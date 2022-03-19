@@ -1,0 +1,161 @@
+body {
+    text-align: center;
+    text-shadow:2px 2px 5px #000;
+    color: #fff;
+    background-color: #000;
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family: "Montserrat-Bold";
+    font-size: 50px;
+}
+
+/* container */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/*shadow*/
+.shadow{
+    box-shadow:0 0 20px 20px #000 inset;
+}
+
+/* button */
+.download-button{
+    margin: 5% 3% 0 3%;
+    box-shadow:0px 0px 3px 3px #000;
+    text-shadow: none;
+}
+
+#title .download-button{
+    margin-left: 0;
+}
+
+/* navbar */
+.navbar{
+    backdrop-filter: blur(2px);
+    box-shadow:0 0 2px 2px #000;
+}
+
+.navbar-brand img{
+    height: 2rem;
+}
+
+/* title */
+
+#title{
+    background-image: url("../img/background/murad_edited.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 7% 15% 15%;
+}
+
+/*feature*/
+
+#features{
+    background-color: #000;
+    color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon:hover{
+    color: rgb(1, 103, 255);
+}
+
+/* testimonials */
+
+#testimonials{
+    background-image: url("../img/background/galaxy_edited.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+    position: relative;
+}
+
+.testimonial-image{
+    width: 100%;
+}
+
+.testimonial-text{
+    padding-bottom: 5px;
+}
+
+.carousel-inner{
+    box-shadow: 0 0 10px 10px #000;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: auto 10px;
+}
+
+.sub-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+/* gift */
+
+.gift-img{
+    width: 100%;
+}
+
+.card{
+    background-color: #000;
+    border-radius: 2em;
+    box-shadow:0 0 0 2px #fff ;
+    margin: 5px;
+}
+
+.card-img-top img{
+    border-radius: 2em 2em 0 0;
+}
+
+.card-body{
+    border-radius: 0 0 2em 2em;
+    height: 140px;
+}
+
+/* cta */
+
+#cta{
+    background-image: url("../img/background/tulen_edited.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80%;
+}
+
+.press-icon{
+    width: 50%;
+}
+
+/*footer*/
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-facebook{
+    color: rgb(0, 81, 255);
+}
+
+.link-icon{
+    margin: 20px 10px;
+    text-decoration: none;
+}
